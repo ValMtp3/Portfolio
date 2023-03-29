@@ -15,4 +15,16 @@ window.addEventListener('scroll', function() {
       behavior: 'smooth'
     });
   });
-  
+
+  // Récupération de l'élément du message de bienvenue
+var welcomeMessage = document.getElementById('welcome-message');
+
+// Animation d'entrée du message de bienvenue
+welcomeMessage.style.opacity = '0';
+welcomeMessage.style.transition = 'opacity 1s ease-in-out';
+welcomeMessage.style.opacity = '1';
+
+// Animation de sortie du message de bienvenue
+setTimeout(function() {
+  welcomeMessage.style.opacity = '0';
+}, 4000);
