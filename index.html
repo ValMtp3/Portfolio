@@ -13,7 +13,7 @@
       <link href="Portfolio.css" rel="stylesheet">
       <title>Valentin Fiess Portfolio</title>
    </head>
-   <body class=" text-5xl bg-[#f5f0e1] font-['Roboto']">
+   <body class="text-md md:text-4xl bg-[#f5f0e1] font-['Roboto']">
       <div class="flex align-center justify-between items-center">
          <h1>
             <header class="text-[#1e3050] my-10 mr-10 text-5xl font-bold leading-10 border-y-4 border-r-4 py-3 pr-8 pl-32 rounded-r-xl border-current bg-[#5687c2]">
@@ -40,15 +40,14 @@
             <img alt="Image de Profile" class="mr-5 rounded-3xl m-20" src="Profile2.jpeg" style="margin: 10px;">
          </div>
          <div class="text-[#3F72AF] list-none px-8 py-3 text-3xl leading-3 ml-28 flex flex-col justify-center align-center border-4 rounded-3xl border-current ">
-            <li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li>
-            <li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Formation</li>
-            <li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Experience</li>
-            <li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Projet</li>
-            <li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Contact</li>
+            <a href="#propos"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li></a>
+            <a href="#formation"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Formation</li></a>
+            <a href="#experience"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Experience</li></a>
+            <a href="#Projet"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Projet</li></a>
             </ul>
          </div>
       </div>
-      <p class="ml-10 text-5xl font-semibold mt-40 text-[#1e3050]"><i class="fa-solid fa-code"></i> A propos</p>
+      <p id="propos" class="ml-10 text-5xl font-semibold mt-40 text-[#1e3050]"><i class="fa-solid fa-code"></i> A propos</p>
       <div class="grid grid-cols-3">
          <img alt="Logo HTML" class="text-center mx-auto my-20 rounded-xl border-4 border-[#3F72AF] hover:bg-white" src="HTML-removebg.png" title="HTML"></a>
          <img alt="Logo CSS" class="text-center mx-auto my-20 rounded-xl border-4 border-[#3F72AF] hover:bg-white" src="CSS-removebg.png" title="CSS"></a>
@@ -58,19 +57,35 @@
          <img alt="Logo MySQL" class="text-center mx-auto my-20 rounded-xl border-4 border-[#3F72AF] hover:bg-white" src="MySQL-removebg.png" title="MySQL"></a>
          <img alt="Logo Python" class="text-center mx-auto my-20 rounded-xl border-4 border-[#3F72AF] hover:bg-white" src="Python-removebg.png" title="Python"></a>
       </div>
-      <p class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Formation</p>
-      <p class="text-[#3F72AF] indent-10">
-         Science et Technologie de l’Industrie
-         du Développement Durable
+      <p id="formation" class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Formation</p>
+      <p class="text-[#3F72AF] indent-10 mt-10">
+        <b>2021-2022&nbsp;</b> • Management Etude et Economie de la construction
       </p>
-      <p class="text-[#3F72AF] indent-20">
+      <p class="text-[#6994c9] indent-20">
+        Lycée Aime Césaire, Clisson
+     </p>
+      <p class="text-[#3F72AF] indent-10 mt-10">
+        <b>2020-2020&nbsp;</b> • Certification TOSA
+     </p>
+     <p class="text-[#6994c9] indent-20">
+        Gréta, Clermont l'Hérault
+     </p>
+     <p class="text-[#a1bcdd] indent-40">
+       Word - 688/1000 
+       <p class="text-[#a1bcdd] indent-40">Excel - 815/1000</p>
+       <p class="text-[#a1bcdd] indent-40 mb-10">PowerPoint - 715/1000</p>
+     </p>
+     <p class="text-[#3F72AF] indent-10 mt-10 mb-2">
+        <b>2018-2020 &nbsp;</b>• <span class="text-center">Science et Technologie de l’Industrie du Développement Durable</span>
+      </p>
+      <p class="text-[#6994c9] indent-20 mb-2">
          Lycée Émile Peytavin, Mende
       </p>
-      <p class="text-[#3F72AF] indent-40">
+      <p class="text-[#a1bcdd] indent-40 mb-10">
         Baccalauréat STI2D
       </p>
-      <p class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Experience</p>
-      <p class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Projet</p>
+      <p id="experience" class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Experience</p>
+      <p id="Projet" class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Projet</p>
       <div class="grid grid-cols-2">
          <img alt="Logo Projet Damso" class="ext-center mx-auto my-20 rounded-xl" src="Ipseite1.jpg">
          <img alt="Logo Hotel Neptune" class="ext-center mx-auto my-20 rounded-xl bg-black" src="HotelNeptune1.png">
