@@ -15,16 +15,32 @@ window.addEventListener('scroll', function() {
       behavior: 'smooth'
     });
   });
-
-  // Récupération de l'élément du message de bienvenue
+// Récupération de l'élément du message de bienvenue
 var welcomeMessage = document.getElementById('welcome-message');
 
-// Animation d'entrée du message de bienvenue
-welcomeMessage.style.opacity = '0';
-welcomeMessage.style.transition = 'opacity 1s ease-in-out';
-welcomeMessage.style.opacity = '1';
-
-// Animation de sortie du message de bienvenue
-setTimeout(function() {
+// Fonction pour animer le message de bienvenue
+function animateWelcomeMessage() {
+  // Animation d'entrée du message de bienvenue
   welcomeMessage.style.opacity = '0';
-}, 4000);
+  welcomeMessage.style.transition = 'opacity 1s ease-in-out';
+  setTimeout(function() {
+    welcomeMessage.style.opacity = '1';
+  }, 100);
+
+  // Animation de sortie du message de bienvenue
+  setTimeout(function() {
+    welcomeMessage.style.opacity = '0';
+    setTimeout(function() {
+      welcomeMessage.style.transition = '';
+    }, 1000);
+  }, 4000);
+}
+
+// Animation initiale du message de bienvenue
+animateWelcomeMessage();
+
+// Animation répétée du message de bienvenue
+setInterval(function() {
+  animateWelcomeMessage();
+}, 8000);
+
