@@ -43,11 +43,24 @@
             </a>
          </div>
       </div>
-      <div class="flex justify-around align-center mt-10">
-         <div>
-            <img alt="Image de Profile" class="mr-5 rounded-3xl m-20" src="Profile2.jpeg" style="margin: 10px;">
+      <div class="flex justify-center align-center mt-10">
+         <div class="flex flex-col items-center justify-center">
+            <div class="group h-96 w-96 [perspective:1000px]">
+              <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                <div class="absolute inset-0">
+                  <img src="Profile2.jpeg" class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" alt="photo de profile"/>
+                </div>
+                <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                  <div class="flex min-h-full flex-col items-center justify-center space-y-6">
+                      <h1 class="text-3xl font-bold">Valentin Fiess</h1>
+                      <p class="text-lg underline">Développeur Web</p>
+                      <p class="text-base">J'ai 20ans et je suis un développeur debutant je m'interesse aux nouvelles technologies notamment celle du  web</p>
+                    </div>
+                </div>
+              </div>
+            </div>
          </div>
-         <div class="text-[#3F72AF] list-none px-8 py-3 text-3xl leading-3 ml-28 flex flex-col justify-center align-center border-4 rounded-3xl border-current ">
+         <div class="text-[#3F72AF] list-none px-8 text-3xl leading-3 ml-28 flex flex-col justify-center align-center border-4 rounded-3xl border-current ">
             <a href="#propos"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li></a>
             <a href="#formation"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Formation</li></a>
             <a href="#experience"><li class="m-5 p-5 hover:bg-white hover:border-4 border-[#1e3050] rounded-xl"><i class="fa-solid fa-minus"></i> Experience</li></a>
@@ -107,8 +120,8 @@
       <p class="text-[#1e3050] text-center">Bientot</p>
       <p id="Projet" class="ml-10 text-5xl font-semibold text-[#1e3050]"><i class="fa-solid fa-code"></i> Projet</p>
       <div class="grid grid-cols-2">
-         <img alt="Logo Projet Damso" class="ext-center mx-auto my-20 rounded-xl" src="Ipseite1.jpg">
-         <img alt="Logo Hotel Neptune" class="ext-center mx-auto my-20 rounded-xl bg-black" src="HotelNeptune1.png">
+         <img alt="Logo Projet Damso" class="ext-center mx-auto my-20 rounded-xl w-max h-max" src="Ipseite1.jpg">
+         <img alt="Logo Hotel Neptune" class="ext-center mx-auto my-20 rounded-xl bg-black w-max h-max" src="HotelNeptune1.png">
          <img alt="logo-PizzaOPlomo" class="ext-center mx-auto my-20 w-60 rounded-xl bg-white" src="pizzaoplomo.webp">
          <img alt="Logo ecogite" class="ext-center mx-auto my-20 w-60 rounded-xl" src="ecogite.jpg">
       </div>
