@@ -8,10 +8,12 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Valentin Fiess" name="author">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+    <link href="assets_index/val.ico" rel="icon" type="image/ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets_index/Profile2.jpeg">
     <script src="https://cdn.tailwindcss.com"></script>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/e7c8dba92f.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script defer src="javascript.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GVMBBKSDN"></script>
     <script>
@@ -22,7 +24,6 @@
       gtag('js', new Date());
       gtag('config', 'G-3GVMBBKSDN');
     </script>
-    <link href="assets_index/val.ico" rel="icon" type="image/ico">
     <style>
       html,
       body {
@@ -32,7 +33,7 @@
   </head>
   <body class="text-md md:text-4xl bg-white font-['Roboto']">
     
-    <section class="flex align-center justify-between items-center">
+    <section class="flex align-center justify-between items-center sticky top-0 z-50">
       
       <!-- Banner 1 Name -->
       <div class="sticky top-0 z-50 overflow-auto max-h-screen">
@@ -41,11 +42,9 @@
         </h1>
       </div>
 
-      <!-- Message bienvenue -->
-      <div id="welcome-message" class="font-light animate__animated animate__tada animate__infinite animate__slower text-center text-red-400 text-xl md:text-6xl">Bienvenue! 👋🏼</div>
-
+     
       <!-- Banner 2 contact -->
-      <div class="flex justify-end align-center ml-10 my-10 border-y-4 border-l-4 py-3 pr-2 rounded-l-xl border-neutral-950 bg-sky-600 bg-opacity-80 backdrop-blur-sm sticky top-0 z-50">
+      <div class="flex justify-end align-center ml-10 my-10 border-y-4 border-l-4 py-3 pr-2 rounded-l-xl border-neutral-950 bg-sky-600 bg-opacity-80 backdrop-blur-sm ">
         <a href="https://www.linkedin.com/in/valentin-fiess060502/" target="_blank" class="fab fa-linkedin mx-5 font-light" style="color: neutral-950;" title="Linkedin">
         </a>
         <a href="https://github.com/ValMtp3" target="_blank" class="fa-brands fa-square-github mx-5" style="color: neutral-950;" title="GitHub">
@@ -57,6 +56,9 @@
       </div>
 
     </section>
+
+ <!-- Message bienvenue -->
+ <div id="welcome-message" class="font-light animate__animated animate__tada animate__infinite animate__slower text-center text-red-400 text-xl md:text-6xl ">Bienvenue! 👋🏼</div>
 
     <!-- Card picture -->
     <div class="flex flex-col sm:flex-row justify-around items-center mt-10 ">
@@ -71,7 +73,7 @@
               <div class="flex min-h-full flex-col items-center justify-center space-y-4 sm:space-y-6">
                 <h1 class="text-xl sm:text-3xl font-regular">Valentin Fiess</h1>
                 <h2 class="font-light text-base sm:text-lg underline">Développeur Web</h2>
-                <p class="font-light text-sm sm:text-base">J'ai 20 ans et je suis un développeur débutant sur Montpellier, je m'intéresse aux nouvelles technologies notamment celle du web.</p>
+                <p class="font-light text-sm sm:text-base">J'ai 21 ans et je suis un développeur débutant sur Montpellier, je m'intéresse aux nouvelles technologies notamment celle du web.</p>
               </div>
             </div>
           </div>
@@ -79,20 +81,19 @@
       </div>
 
       <!-- Menu right -->
-      <div class="text-neutral-950 list-none px-2 sm:px-8 text-xl sm:text-3xl leading-3 ml-0 sm:ml-28 flex flex-col justify-center align-center border-2 rounded-3xl border-neutral-950">
+      <div class="text-neutral-950 list-none px-2 sm:px-8 text-xl sm:text-3xl leading-3 ml-0 sm:ml-28 flex flex-col justify-center align-center ">
         <a href="#propos">
 
-          <!-- <li class="font-light animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-sky-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li> -->
-          <li class="font-light animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-sky-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li>
+          <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> A propos</li>
         </a>
         <a href="#formation">
-          <li class="font-light animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-sky-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> Formation</li>
+          <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> Formation</li>
         </a>
         <a href="#bts">
-          <li class="font-light animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-sky-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> BTS</li>
+          <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> BTS</li>
         </a>
         <a href="#Projet">
-          <li class="font-light animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-sky-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> Projets</li>
+          <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 rounded-xl"><i class="fa-solid fa-minus"></i> Projets</li>
         </a>
       </div>
     </div>
@@ -158,7 +159,7 @@
               <br><em>1ère année de BTS S.I.O</em></br>
             </p>
             <a class="ml-9 md:col-span-2 md:col-start-4 md:ml-0 " href="BTS.html">
-              <button class="text-neutral-600 p-4 border-2 bg-neutral-200 text-xl shadow-lg m-5 rounded-xl">Plus d'info sur ce BTS</button>
+              <button class="text-neutral-600 p-4 border-2 bg-neutral-200 text-xl shadow-lg m-5 rounded-xl hover:bg-neutral-700 hover:text-neutral-400 duration-300">Plus d'info sur ce BTS</button>
             </a>
           </div>
         </article>
@@ -229,7 +230,7 @@
           <p class="text-primary-500 mb-1 text-sm font-light">Valentin Fiess • <time>Sept 2022</time></p>
           <p class="mt-1 text-xl  text-neutral-900">Premier projet html/css sur la page web d'un artiste ici Damso</p>
           <a href="https://github.com/ValMtp3/Damso" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform font-light hover:scale-110 motion-reduce:transform-none rounded-xl border-2 p-2 transition duration-300 hover:bg-sky-200 border-neutral-950 m-5 ">Damso</button>
+            <button class="animate__animated animate__fadeIn ml-auto transform font-light hover:scale-110 motion-reduce:transform-none rounded-xl border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">Damso</button>
           </a>
         </div>
       </div>
@@ -239,7 +240,7 @@
           <p class="text-primary-500 mb-1 text-sm font-light">Groupe de classe • <time>Nov 2022</time></p>
           <p class="mt-1 text-xl text-neutral-900">Refonte d'un site web d'hotel avec base de données intégrée, développé en HTML, CSS, JavaScript, PHP et MySQL</p>
           <a href="https://github.com/HotelNeptune/Application/tree/dev" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none font-light rounded-xl border-2 p-2 transition duration-300 hover:bg-sky-200 border-neutral-950 m-5 ">Neptune</button>
+            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none font-light rounded-xl border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">Neptune</button>
           </a>
         </div>
       </div>
@@ -249,7 +250,7 @@
           <p class="text-primary-500 mb-1 text-sm font-light">Groupe de classe • <time>Fevrier 2022</time></p>
           <p class="mt-1 text-xl text-neutral-900">Création d'un projet complet avec site web, MCD, SEO, Emailing et SMO développé en HTML, CSS, JavaScript et PHP</p>
           <a href="https://www.pizzaoplomo.gaetandev.fr/" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none font-light rounded-xl border-2 p-2 transition duration-300 hover:bg-sky-200 border-neutral-950 m-5 ">PizzaO'Plomo</button>
+            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none font-light rounded-xl border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">PizzaO'Plomo</button>
           </a>
         </div>
       </div>
