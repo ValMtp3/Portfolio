@@ -76,7 +76,7 @@
       <!-- Banner 2 contact -->
       <div class="md:flex md:justify-end md:align-center ml-10 my-10 border-y-4 border-l-4 py-3 pr-2 rounded-l-xl border-neutral-950
        bg-sky-600 bg-opacity-80 backdrop-blur-sm sm:grid-rows-4 flex items-center h-20">
-        <a href="https://www.linkedin.com/in/valentin-fiess060502/" target="_blank" class="fab fa-linkedin mx-5 font-light" 
+        <a href="https://www.linkedin.com/in/valentin-fiess060502/" target="_blank" class="fab fa-linkedin mx-5" 
         style="color: neutral-950;" title="Linkedin">
         </a>
         <a href="https://github.com/ValMtp3" target="_blank" class="fa-brands fa-square-github mx-5" 
@@ -105,16 +105,15 @@
           <div class="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] 
           group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
-              <img src="assets_index/Profile.webp" class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40"
+              <img src="assets_index/Profile.webp" class="rounded-xl object-cover shadow-xl shadow-black/40"
               alt="photo Valentin Fiess" />
               <span class="fa-solid fa-arrow-pointer fa-beat-fade inline-flex w-3 h-3 absolute right-0 bottom-0 text-2xl text-neutral-950">
-
               </span>
             </div>
             <div class="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-8 sm:px-12 text-center text-neutral-200 
             [transform:rotateY(180deg)]
             [backface-visibility:hidden]">
-              <div class="flex min-h-full flex-col items-center justify-center space-y-4 sm:space-y-6">
+              <div class="flex min-h-full flex-col items-center justify-center space-y-4 sm:space-y-6 ">
                 <h1 class="text-xl sm:text-3xl font-regular">Valentin Fiess</h1>
                 <h2 class="font-light text-base sm:text-lg underline">Développeur Web</h2>
                 <p class="font-light text-sm sm:text-base">J'ai 21 ans et je suis un développeur débutant sur Montpellier, 
@@ -127,10 +126,10 @@
       </div>
 
       <!-- Menu right -->
-      <div class="text-neutral-950 list-none px-2 sm:px-8 text-xl sm:text-3xl leading-3 ml-0 sm:ml-28 flex flex-col 
-      justify-center align-center ">
+      <div>
         <a href="#propos">
-
+          <menu class="text-neutral-950 list-none px-2 sm:px-8 text-xl sm:text-3xl leading-3 ml-0 sm:ml-28 flex flex-col 
+          justify-center align-center ">
           <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 
           rounded-xl">
             <i class="fa-solid fa-minus"></i> A propos</li>
@@ -149,45 +148,46 @@
           <li class="font-light ml-auto duration-300 m-2 sm:m-5 p-2 sm:p-5 hover:bg-neutral-200 hover:border-2 border-neutral-950 
           rounded-xl">
             <i class="fa-solid fa-minus"></i> Projets</li>
+        </menu>
         </a>
       </div>
     </div>
 
     <!-- A propos -->
     <p id="propos" class="ml-10 text-5xl font-medium mt-40 text-neutral-950"><i class="fa-solid fa-code"></i> A propos</p>
-    <div class="grid grid-cols-1 md:grid-cols-3">
+    <div class="grid grid-cols-1 md:grid-cols-3 font-['Roboto']">
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo HTML" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/HTML-removebg.webp" title="HTML">
+        <img alt="Logo HTML" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/HTML-removebg.webp" title="HTML">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">HTML</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo CSS" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/css3.webp" title="CSS">
+        <img alt="Logo CSS" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/css3.webp" title="CSS">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">CSS</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo CMS Webflow" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Webflow.webp" title="Webflow">
+        <img alt="Logo CMS Webflow" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/Webflow.webp" title="Webflow">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">Webflow</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo TailwindCSS" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Tailwind-removebg.webp" title="Tailwind">
+        <img alt="Logo TailwindCSS" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/Tailwind-removebg.webp" title="Tailwind">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">Tailwind</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo MySQL" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/MySQL-removebg.webp" title="MySQL">
+        <img alt="Logo MySQL" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/MySQL-removebg.webp" title="MySQL">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">MySQL</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo Python" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Python-removebg.webp" title="Python">
+        <img alt="Logo Python" class="w-52 h-52 mx-auto mt-10 rounded-xl" src="assets_index/Python-removebg.webp" title="Python">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">Python</p>
         </div>
@@ -298,7 +298,7 @@
           <p class="text-primary-500 mb-1 text-sm font-light">Valentin Fiess • <time>Septembre 2022</time></p>
           <p class="mt-1 text-xl  text-neutral-900">Premier projet html/css sur la page web d'un artiste ici Damso</p>
           <a href="https://github.com/ValMtp3/Damso" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform font-light hover:scale-110 
+            <button class="ml-auto transform font-light hover:scale-110 
             motion-reduce:transform-none rounded-xl 
             border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">Damso</button>
           </a>
@@ -313,7 +313,7 @@
             HTML, CSS, JavaScript, 
             PHP et MySQL</p>
           <a href="https://github.com/HotelNeptune/Application/tree/dev" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none 
+            <button class="ml-auto transform hover:scale-110 motion-reduce:transform-none 
             font-light rounded-xl 
             border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">Neptune</button>
           </a>
@@ -327,7 +327,7 @@
             développé en HTML, CSS,
              JavaScript et PHP</p>
           <a href="https://www.pizzaoplomo.gaetandev.fr/" target="_blank">
-            <button class="animate__animated animate__fadeIn ml-auto transform hover:scale-110 motion-reduce:transform-none 
+            <button class="ml-auto transform hover:scale-110 motion-reduce:transform-none 
             font-light rounded-xl 
             border-2 p-2 transition duration-300 hover:bg-neutral-200 border-neutral-950 m-5 ">PizzaO'Plomo</button>
           </a>
