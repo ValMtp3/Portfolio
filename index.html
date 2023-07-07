@@ -9,13 +9,12 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Valentin Fiess" name="author">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
     <link href="assets_index/val.ico" rel="icon" type="image/ico">
     <link rel="apple-touch-icon" sizes="180x180" href="assets_index/Profile2.jpeg">
     <link rel="canonical" href="https://www.valentin-fiess.fr/" /> 
     <script src="https://cdn.tailwindcss.com"></script>
-    <script crossorigin="anonymous" src="https://kit.fontawesome.com/e7c8dba92f.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/87358caf5a.js"></script>
     <script defer src="javascript.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3GVMBBKSDN"></script>
     <script>
@@ -27,13 +26,36 @@
       gtag('config', 'G-3GVMBBKSDN');
     </script>
     <style>
+      @font-face {
+        font-family: "Roboto"; 
+        src: url(Roboto/Roboto-Medium.ttf);
+        font-weight: 500;
+        font-display: swap;
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: "Roboto"; 
+        src: url(Roboto/Roboto-Light.ttf);
+        font-weight: 300;
+        font-display: swap;
+      }
+    </style>
+      <style>
+        @font-face {
+          font-family: "Hammersmith"; 
+          src: url(Hammersmith_One/HammersmithOne-Regular.ttf);
+          font-display: swap;
+        }
+      </style>
+    <style>
       html,
       body {
         scroll-behavior: smooth;
       }
     </style>
   </head>
-  <body class="text-md md:text-4xl bg-white font-['Roboto']">
+  <body class="text-md md:text-4xl bg-white font-['Hammersmith']">
     
     <section class="flex align-center justify-between items-top sticky top-0 z-50">
       
@@ -135,7 +157,7 @@
     <p id="propos" class="ml-10 text-5xl font-medium mt-40 text-neutral-950"><i class="fa-solid fa-code"></i> A propos</p>
     <div class="grid grid-cols-1 md:grid-cols-3">
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo HTML" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/HTML-removebg.png" title="HTML">
+        <img alt="Logo HTML" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/HTML-removebg.webp" title="HTML">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">HTML</p>
         </div>
@@ -153,19 +175,19 @@
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo TailwindCSS" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Tailwind-removebg.png" title="Tailwind">
+        <img alt="Logo TailwindCSS" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Tailwind-removebg.webp" title="Tailwind">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">Tailwind</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo MySQL" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/MySQL-removebg.png" title="MySQL">
+        <img alt="Logo MySQL" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/MySQL-removebg.webp" title="MySQL">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">MySQL</p>
         </div>
       </div>
       <div class="rounded-xl shadow-lg m-10 px-5 transition duration-300 hover:bg-sky-50 ">
-        <img alt="Logo Python" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Python-removebg.png" title="Python">
+        <img alt="Logo Python" class="w-52 mx-auto mt-10 rounded-xl" src="assets_index/Python-removebg.webp" title="Python">
         <div class="p-4 text-center">
           <p class="mt-1 text-xl text-neutral-900 flex justify-center text-start">Python</p>
         </div>
@@ -174,11 +196,11 @@
 
     <!-- Formation -->
     <p id="formation" class="ml-10 text-5xl font-medium text-neutral"><i class="fa-solid fa-code"></i> Formation</p>
-    <ul class="rounded-3xl bg-white p-2 sm:p-5 xl:p-6">
+    <ul class="rounded-3xl bg-white p-2 sm:p-5 xl:p-6 font-['Roboto']">
       <li>
         <article>
           <div class="relative grid items-start overflow-hidden rounded-xl p-3 hover:bg-neutral-50 sm:p-5 md:grid-cols-8 
-          xl:grid-cols-9 xl:p-6">
+          xl:grid-cols-9 xl:p-6 ">
             <p class="mb-3 ml-9 font-light text-neutral-900 md:col-span-6 md:col-start-3 md:ml-0 xl:col-span-7 
             xl:col-start-3">Service Informatique 
             aux Organisations</p>
@@ -269,9 +291,9 @@
 
     <!-- Pojets -->
     <p id="Projet" class="ml-10 text-5xl font-medium text-neutral-950"><i class="fa-solid fa-code"></i> Projets</p>
-    <div class="grid grid-rows-1 md:grid-cols-2">
+    <div class="grid grid-rows-1 md:grid-cols-2 font-['Roboto']">
       <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-transparent shadow-lg my-20 p-10">
-        <img alt="Logo Projet Damso" class="ext-center mx-auto mb-10 rounded-xl w-60 h-60" src="assets_index/Ipseite1.jpg">
+        <img alt="Logo Projet Damso" class="ext-center mx-auto mb-10 rounded-xl w-60 h-60" src="assets_index/Ipseite1.webp">
         <div class="p-4 text-center">
           <p class="text-primary-500 mb-1 text-sm font-light">Valentin Fiess • <time>Septembre 2022</time></p>
           <p class="mt-1 text-xl  text-neutral-900">Premier projet html/css sur la page web d'un artiste ici Damso</p>
@@ -284,7 +306,7 @@
       </div>
       <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-transparent shadow-lg my-20 p-10">
         <img alt="Logo Hotel Neptune" class="ext-center mx-auto mb-10 rounded-xl w-60 h-60 bg-neutral-950" 
-        src="assets_index/HotelNeptune1.png">
+        src="assets_index/HotelNeptune1.webp">
         <div class="p-4 text-center">
           <p class="text-primary-500 mb-1 text-sm font-light">Groupe de classe • <time>Novembre 2022</time></p>
           <p class="mt-1 text-xl text-neutral-900">Refonte d'un site web d'hotel avec base de données intégrée, développé en 
@@ -312,7 +334,7 @@
         </div>
       </div>
       <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-transparent shadow-lg my-20 p-10">
-        <img alt="Logo ecogite" class="ext-center mx-auto my-20 w-60 h-60 rounded-xl" src="assets_index/ecogite.jpg">
+        <img alt="Logo ecogite" class="ext-center mx-auto my-20 w-60 h-60 rounded-xl" src="assets_index/ecogite.webp">
         <div class="p-4 text-center">
           <p class="text-primary-500 mb-1 text-sm font-light">Groupe de classe • <time>Mars 2022</time></p>
           <p class="mt-1 text-xl text-neutral-900">Création d'un projet MCD/base de donnée des Gîte de France en utilisant SQL Server</p>

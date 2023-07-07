@@ -7,11 +7,11 @@
 		<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 		<meta content="Valentin Fiess" name="author" />
+		<meta
+			name="description"
+			content="Présentation de mon BTS S.I.O a l'EPSI dans lequel je fait mes études" />
 		<script src="https://cdn.tailwindcss.com"></script>
-		<script crossorigin="anonymous" src="https://kit.fontawesome.com/e7c8dba92f.js"></script>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+		<script crossorigin="anonymous" src="https://kit.fontawesome.com/87358caf5a.js"></script>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -27,13 +27,36 @@
 		</script>
 		<link href="assets_index/val.ico" rel="icon" type="image/ico" />
 		<style>
+			@font-face {
+				font-family: "Roboto";
+				src: url(Roboto/Roboto-Medium.ttf);
+				font-weight: 500;
+				font-display: swap;
+			}
+		</style>
+		<style>
+			@font-face {
+				font-family: "Roboto";
+				src: url(Roboto/Roboto-Light.ttf);
+				font-weight: 300;
+				font-display: swap;
+			}
+		</style>
+		<style>
+			@font-face {
+				font-family: "Hammersmith";
+				src: url(Hammersmith_One/HammersmithOne-Regular.ttf);
+				font-display: swap;
+			}
+		</style>
+		<style>
 			html,
 			body {
 				scroll-behavior: smooth;
 			}
 		</style>
 	</head>
-	<body class="text-md md:text-4xl bg-white font-['Roboto']">
+	<body class="text-md md:text-4xl bg-white font-['Hammersmith']">
 		<section class="flex align-center justify-between items-top sticky top-0 z-50">
 			<!-- Banner 1 Name -->
 			<div>
@@ -87,7 +110,7 @@
 
 		<!-- BTS -->
 		<p class="ml-10 text-5xl font-medium text-neutral-950 text-center">BTS</p>
-		<div class="mx-10">
+		<div class="mx-10 font-['Roboto']">
 			<img class="" src="assets_index/Epsi.webp" alt="Logo Epsi" />
 			<p class="text-neutral-500 text-justify mb-5 mt-5 font-light">
 				Je suis actuellement étudiant en première année de BTS SIO (Services Informatiques aux
